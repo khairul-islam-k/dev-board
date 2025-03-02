@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- font family -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <!-- tailWind css -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- customize -->
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
+                'card-back': 'rgb(244, 247, 255)',
+                back: 'rgb(255, 255, 255)',
+              }
+            }
+          }
+        }
+      </script>
+      <style>
+        .poppins {
+         font-family: "Poppins", sans-serif;
+         }
+      </style>
+</head>
+<body>
+    <main>
+        <div class="bg-back rounded-2xl p-6">
+  
+  
+          <div class="flex justify-between">
+            <div class="bg-card-back rounded-xl p-6">
+              <img src="assets/checkbox.png" alt="">
+               <div>
+                 <p>Task Assigned </p>
+                 <h5>05</h5>
+               </div>
+            </div>
+            <div>
+              <img src="assets/board.png" alt="">
+              <p>Discover Something New Today!</p>
+            </div>
+            <div class="bg-card-back rounded-xl p-6">
+              <img src="assets/calender.png" alt="">
+              <p>Wed ,
+                Jul 28 2025 </p>
+            </div>
+  
+            <!-- main2 -->
+  
+            <div></div>
+  
+          </div>
+        </div>
+        <div></div>
+      </main>
+</body>
+</html>
