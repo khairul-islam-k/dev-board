@@ -141,3 +141,9 @@ document.getElementById('btn-job').addEventListener('click', function () {
 document.getElementById('btn-clear').addEventListener('click', function () {
     document.getElementById('history').innerHTML ='';
 })
+
+// Discover something
+document.getElementById('discover').addEventListener('click', function () {
+    window.location.href = 'index2.html';
+})
+
