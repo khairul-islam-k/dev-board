@@ -147,3 +147,27 @@ document.getElementById('discover').addEventListener('click', function () {
     window.location.href = 'index2.html';
 })
 
+// theme
+let count = 0;
+document.getElementById('theme').addEventListener('click', function () {
+    count += 1;
+    switch(count) {
+        case 1:
+            document.body.style.backgroundColor = 'red';
+            break;
+            case 2:
+                document.body.style.backgroundColor = 'yellow';
+                break;
+                case 3:
+                    document.body.style.backgroundColor = 'blue';
+                    break;
+                    case 4:
+                        document.body.style.backgroundColor = 'green';
+                        break;
+                        case 5:
+                            document.body.style.backgroundColor = 'black';
+                            break;
+                            case 6:
+                                document.body.style.backgroundColor = 'orange';
+    }
+})
