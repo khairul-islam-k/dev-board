@@ -1,9 +1,11 @@
+let taskAssigned = 0;
 // mobile button issue
 document.getElementById('btn-mobile').addEventListener('click', function () {
     const task = document.getElementById('task');
     task.innerText = task.innerText - 1;
     const devBoard = document.getElementById('dev-board');
     devBoard.innerText = +devBoard.innerText + 1;
+    taskAssigned += 1;
 
     const history = document.getElementById('history');
     const head = document.getElementById('mobile-head').innerText;
@@ -14,6 +16,9 @@ document.getElementById('btn-mobile').addEventListener('click', function () {
 
     document.getElementById('btn-mobile').style.backgroundColor = 'gray';
     alert('Board update successfully');
+    if (taskAssigned === 6) {
+        alert('congrates !!! you have completed all current task');
+    }
     document.getElementById('btn-mobile').setAttribute('disabled', true);
 })
 
@@ -23,6 +28,7 @@ document.getElementById('btn-dark').addEventListener('click', function () {
     task.innerText = task.innerText - 1;
     const devBoard = document.getElementById('dev-board');
     devBoard.innerText = +devBoard.innerText + 1;
+    taskAssigned += 1;
 
     const history = document.getElementById('history');
     const head = document.getElementById('dark-head').innerText;
@@ -33,6 +39,9 @@ document.getElementById('btn-dark').addEventListener('click', function () {
 
     document.getElementById('btn-dark').style.backgroundColor = 'gray';
     alert('Board update successfully');
+    if (taskAssigned === 6) {
+        alert('congrates !!! you have completed all current task');
+    }
     document.getElementById('btn-dark').setAttribute('disabled', true);
 })
 
@@ -42,6 +51,7 @@ document.getElementById('btn-home-page').addEventListener('click', function () {
     task.innerText = task.innerText - 1;
     const devBoard = document.getElementById('dev-board');
     devBoard.innerText = +devBoard.innerText + 1;
+    taskAssigned += 1;
 
     const history = document.getElementById('history');
     const head = document.getElementById('home-head').innerText;
@@ -52,6 +62,9 @@ document.getElementById('btn-home-page').addEventListener('click', function () {
 
     document.getElementById('btn-home-page').style.backgroundColor = 'gray';
     alert('Board update successfully');
+    if (taskAssigned === 6) {
+        alert('congrates !!! you have completed all current task');
+    }
     document.getElementById('btn-home-page').setAttribute('disabled', true);
 })
 
@@ -61,6 +74,7 @@ document.getElementById('btn-emoji').addEventListener('click', function () {
     task.innerText = task.innerText - 1;
     const devBoard = document.getElementById('dev-board');
     devBoard.innerText = +devBoard.innerText + 1;
+    taskAssigned += 1;
 
     const history = document.getElementById('history');
     const head = document.getElementById('emoji-head').innerText;
@@ -71,6 +85,9 @@ document.getElementById('btn-emoji').addEventListener('click', function () {
 
     document.getElementById('btn-emoji').style.backgroundColor = 'gray';
     alert('Board update successfully');
+    if (taskAssigned === 6) {
+        alert('congrates !!! you have completed all current task');
+    }
     document.getElementById('btn-emoji').setAttribute('disabled', true);
 })
 
@@ -80,6 +97,7 @@ document.getElementById('btn-api').addEventListener('click', function () {
     task.innerText = task.innerText - 1;
     const devBoard = document.getElementById('dev-board');
     devBoard.innerText = +devBoard.innerText + 1;
+    taskAssigned += 1;
 
     const history = document.getElementById('history');
     const head = document.getElementById('api-head').innerText;
@@ -90,6 +108,9 @@ document.getElementById('btn-api').addEventListener('click', function () {
 
     document.getElementById('btn-api').style.backgroundColor = 'gray';
     alert('Board update successfully');
+    if (taskAssigned === 6) {
+        alert('congrates !!! you have completed all current task');
+    }
     document.getElementById('btn-api').setAttribute('disabled', true);
 })
 
@@ -99,6 +120,7 @@ document.getElementById('btn-job').addEventListener('click', function () {
     task.innerText = task.innerText - 1;
     const devBoard = document.getElementById('dev-board');
     devBoard.innerText = +devBoard.innerText + 1;
+    taskAssigned += 1;
 
     const history = document.getElementById('history');
     const head = document.getElementById('job-head').innerText;
@@ -109,6 +131,9 @@ document.getElementById('btn-job').addEventListener('click', function () {
 
     document.getElementById('btn-job').style.backgroundColor = 'gray';
     alert('Board update successfully');
+    if (taskAssigned === 6) {
+        alert('congrates !!! you have completed all current task');
+    }
     document.getElementById('btn-job').setAttribute('disabled', true);
 })
 
