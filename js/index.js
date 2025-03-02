@@ -37,7 +37,7 @@ document.getElementById('btn-dark').addEventListener('click', function () {
 })
 
 // optimize Home Page
-document.getElementById('btn-home').addEventListener('click', function () {
+document.getElementById('btn-home-page').addEventListener('click', function () {
     const task = document.getElementById('task');
     task.innerText = task.innerText - 1;
     const devBoard = document.getElementById('dev-board');
