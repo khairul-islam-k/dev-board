@@ -50,9 +50,9 @@ document.getElementById('btn-home-page').addEventListener('click', function () {
     p.innerText = 'You have complete The Task '+ head +' at '+ new Date().toLocaleString();
     history.appendChild(p);
 
-    document.getElementById('btn-home').style.backgroundColor = 'gray';
+    document.getElementById('btn-home-page').style.backgroundColor = 'gray';
     alert('Board update successfully');
-    document.getElementById('btn-home').setAttribute('disabled', true);
+    document.getElementById('btn-home-page').setAttribute('disabled', true);
 })
 
 // Add new emoji
