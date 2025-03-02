@@ -137,3 +137,7 @@ document.getElementById('btn-job').addEventListener('click', function () {
     document.getElementById('btn-job').setAttribute('disabled', true);
 })
 
+// Clear History
+document.getElementById('btn-clear').addEventListener('click', function () {
+    document.getElementById('history').innerHTML ='';
+})
